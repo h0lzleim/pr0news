@@ -1,0 +1,165 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body{
+	background: #161618;
+	font-family: "Slabo 27px", "Times New Roman", serif;
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+
+div.pr0news{
+	margin: auto;
+	width: 1000px;
+	display: blocck;
+	text-align: left;
+}
+
+div.pr0news div{
+	color: #f2f5f4;
+	font-family: "Slabo 27px", "Times New Roman", serif;
+}
+
+p{
+	color: #f2f5f4;
+	font-family: "Slabo 27px", "Times New Roman", serif;
+}
+
+h1:not(.realTitle){
+	display: none;
+}
+h1{
+	font-family: "Slabo 27px", "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 2.1em !important;
+	color: #ee4d2e;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+h2{
+	font-size: 2.0em !important;
+	color: #1cb992;
+}
+h3{
+	font-size: 1.9em !important;
+	color: #ff9900;
+}
+h4{
+	font-size: 1.9em !important;
+	color: #5bb91c;
+}
+h5{
+	font-size: 1.8em !important;
+	color: #e108e9;
+}
+h6{
+	font-size: 1.8em !important;
+	color: #6c432b;
+}
+blockquote{
+	color: #bfbc06;
+}
+blockquote>*{
+	color: inherit;
+}
+blockquote p{
+	font-style: italic;
+}
+strong{
+	color: #ee4d2e;
+}
+b{
+	color: #ee4d2e;
+}
+i{
+	color: #008fff;
+}
+del{
+	color: #6c432b;
+}
+em{
+	color: #e108e9;
+}
+ul{
+	color: #f2f5f4;
+	font-family: "Slabo 27px", "Times New Roman", serif;
+}
+ol{
+	color: #f2f5f4;
+	font-family: "Slabo 27px", "Times New Roman", serif;
+}
+div div img{
+	width: 50%;
+	max-width: 1000px;
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+div>*{
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+.n-tv p.category {
+	display: none;
+}
+.Welt a.o-teaser__link{
+	display: none;
+}
+
+.Welt p.c-inline-teaser__label{
+	display: none;
+}
+
+.Welt p.o-teaser__topic{
+	display: none;
+}
+
+.Welt p.c-ad-appnexus__label{
+	display: none;
+}
+.Welt p.o-element__text{
+	display: none;
+}
+.Tagesschau h3:first-of-type{
+	display: none;
+}
+.Tagesschau ul.scrollcontent{
+	display: none;
+}
+.Tagesschau ul.expand_list{
+	display: none;
+}
+.Tagesschau p.control{
+	display: none;
+}
+.Tagesschau a.control{
+	display: none;
+}
+.Tagesschau h2.boxheadline{
+	display: none;
+}
+.Tagesschau h2.conHeadline{
+	display: none;
+}
+.Tagesschau h4.manualteasersubtitle{
+	display: none;
+}
+.Tagesschau ol.comment_list{
+	display: none;
+}
+.Tagesschau a.expand_collapse_all{
+	display: none;
+}
+.Tagesschau a.icon.galerie{
+	display: none;
+}
+.Tagesschau ul.shares.clearfix{
+	display: none;
+}
+.Tagesschau p.hinweistext{
+	display: none;
+}
+.Tagesschau p.embedtrigger.button{
+	display: none;
+}

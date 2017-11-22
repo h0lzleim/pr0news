@@ -1,0 +1,93 @@
+url|category|language|publisher|baseurl
+http://www.faz.net/rss/aktuell/politik/|Politik|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/wirtschaft/|Wirtschaft|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/wissen/|Wissen|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/feuilleton/|Unterhaltung|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/technik-motor/digital|Digital|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/technik-motor/technik|Technik|DE|FAZ|http://www.faz.net/
+http://www.faz.net/rss/aktuell/gesellschaft/|Gesellschaft|DE|FAZ|http://www.faz.net/
+http://feeds.feedburner.com/blogspot/rkEL|Satire|DE|Postillon|http://www.der-postillon.com/
+http://rss.sueddeutsche.de/rss/Eilmeldungen|Eilmeldungen|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Politik|Politik|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Wirtschaft|Wirtschaft|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Kultur|Unterhaltung|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Wissen|Wissen|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Digital|Digital|DE|SZ|http://www.sueddeutsche.de/
+http://rss.sueddeutsche.de/rss/Leben|Gesellschaft|DE|SZ|http://www.sueddeutsche.de/
+https://www.welt.de/feeds/section/politik.rss|Politik|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/wirtschaft.rss|Wirtschaft|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/finanzen.rss|Wirtschaft|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/wirtschaft/webwelt.rss|Digital|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/kultur.rss|Unterhaltung|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/motor.rss|Technik|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/vermischtes.rss|Sonstiges|DE|Welt|https://www.welt.de/
+https://www.welt.de/feeds/section/satire/|Satire|DE|Welt|https://www.welt.de/
+http://www.n-tv.de/wirtschaft/rss|Wirtschaft|DE|n-tv|http://www.n-tv.de/
+http://www.n-tv.de/politik/rss|Politik|DE|n-tv|http://www.n-tv.de/
+http://www.n-tv.de/panorama/rss|Sonstiges|DE|n-tv|http://www.n-tv.de/
+http://www.n-tv.de/leute/rss|Unterhaltung|DE|n-tv|http://www.n-tv.de/
+http://www.n-tv.de/technik/rss|Technik|DE|n-tv|http://www.n-tv.de/
+http://www.n-tv.de/wissen/rss|Wissen|DE|n-tv|http://www.n-tv.de/
+http://www.tagesschau.de/xml/rss2|Nachrichten|DE|Tagesschau|http://www.tagesschau.de/
+http://www.spiegel.de/schlagzeilen/eilmeldungen/index.rss|Eilmeldungen|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/politik/index.rss|Politik|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/wirtschaft/index.rss|Wirtschaft|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/panorama/index.rss|Sonstiges|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/kultur/index.rss|Unterhaltung|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/netzwelt/index.rss|Digital|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/wissenschaft/index.rss|Wissenschaft|DE|Spiegel|http://www.spiegel.de/
+http://www.spiegel.de/karriere/index.rss|Sonstiges|DE|Spiegel|http://www.spiegel.de/
+http://www.stern.de/feed/standard/politik/|Politik|DE|Stern|https://www.stern.de/
+http://www.stern.de/feed/standard/panorama/|Sonstiges|DE|Stern|https://www.stern.de/
+http://www.stern.de/feed/standard/kultur/|Unterhaltung|DE|Stern|https://www.stern.de/
+http://www.stern.de/feed/standard/wirtschaft/|Wirtschaft|DE|Stern|https://www.stern.de/
+http://www.stern.de/feed/standard/digital/|Digital|DE|Stern|https://www.stern.de/
+http://www.stern.de/feed/standard/wissen/|Wissen|DE|Stern|https://www.stern.de/
+http://www.ndr.de/unterhaltung/index-rss.xml|Unterhaltung|DE|NDR|https://www.ndr.de/
+http://www.ndr.de/home/index-rss.xml|Nachrichten|DE|NDR|https://www.ndr.de/
+https://deutsch.rt.com/feeds/news/|Nachrichten|DE|RT Deutsch|https://deutsch.rt.com/
+https://deutsch.rt.com/feeds/news/gesellschaft/|Gesellschaft|DE|RT Deutsch|https://deutsch.rt.com/
+https://deutsch.rt.com/feeds/news/wirtschaft/|Wirtschaft|DE|RT Deutsch|https://deutsch.rt.com/
+http://feeds.t-online.de/rss/nachrichten|Nachrichten|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/politik|Politik|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/wissenschaft|Wissenschaft|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/forschung|Wissenschaft|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/panorama|Sonstiges|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/boulevard|Unterhaltung|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/digital|Digital|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/wirtschaft|Wirtschaft|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/unterhaltung|Unterhaltung|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/spiele|Digital|DE|T-Online|http://www.t-online.de/
+http://feeds.t-online.de/rss/lifestyle|Sonstiges|DE|T-Online|http://www.t-online.de/
+http://newsfeed.zeit.de/index|Nachrichten|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/politik/index|Politik|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/wirtschaft/index|Wirtschaft|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/gesellschaft/index|Gesellschaft|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/kultur/index|Unterhaltung|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/wissen/index|Wissen|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/digital/index|Digital|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/entdecken/index|Sonstiges|DE|Zeit|http://www.zeit.de/
+http://newsfeed.zeit.de/mobilitaet/index|Sonstiges|DE|Zeit|http://www.zeit.de/
+https://web.de/magazine/nachrichten/index.rss|Nachrichten|DE|WEB.de|https://web.de/
+https://web.de/magazine/lifestyle/index.rss|Sonstiges|DE|WEB.de|https://web.de/
+https://web.de/magazine/unterhaltung/index.rss|Unterhaltung|DE|WEB.de|https://web.de/
+https://web.de/magazine/auto/index.rss|Technik|DE|WEB.de|https://web.de/
+https://web.de/magazine/wissen/index.rss|Wissen|DE|WEB.de|https://web.de/
+https://web.de/magazine/digitale-welt/index.rss|Digital|DE|WEB.de|https://web.de/
+https://web.de/magazine/gesundheit/index.rss|Sonstiges|DE|WEB.de|https://web.de/
+http://www.rp-online.de/feed.rss|Nachrichten|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/politik/feed.rss|Politik|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/wirtschaft/feed.rss|Wirtschaft|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/panorama/feed.rss|Sonstiges|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/kultur/feed.rss|Unterhaltung|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/panorama/feed.rss|Gesellschaft|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/panorama/wissen/feed.rss|Wissen|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/digitales/feed.rss|Digital|DE|RP Online|http://www.rp-online.de/
+http://www.rp-online.de/leben/auto/feed.rss|Technik|DE|RP Online|http://www.rp-online.de/
+http://www.chip.de/rss/rss_topnews.xml|Digital|DE|CHIP|http://www.chip.de/
+http://www.chip.de/rss/rss_technik.xml|Digital|DE|CHIP|http://www.chip.de/
+http://rss.focus.de/fol/XML/rss_folnews_eilmeldungen.xml|Eilmeldungen|DE|Focus|http://www.focus.de/
+http://rss.focus.de/politik/|Politik|DE|Focus|http://www.focus.de/
+http://rss.focus.de/kultur/vermischtes/|Unterhaltung|DE|Focus|http://www.focus.de/
+http://rss.focus.de/panorama/|Sonstiges|DE|Focus|http://www.focus.de/
+http://rss.focus.de/digital/|Digital|DE|Focus|http://www.focus.de/

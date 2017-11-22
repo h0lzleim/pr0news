@@ -1,0 +1,47 @@
+Grau: 		RGB	22	22	24
+Weiß-Schrift:	RGB	242	245	244
+Ausgegraut:	RGB	136	136	136
+Link:		RGB	117	192	199
+Iwas doofes:	RGB	252	136	51
+SFW-Grün:	RGB	92	184	92
+NSFW-Orange:	RGB	240	173	78
+NSFL-Rot:	RGB	217	83	79
+pr0mium-auswhl:	RGB	34	34	34
+
+Orange: 	RGB	238	77	46
+angenehm-Grün:	RGB	29	185	146
+Olivgrün:	RGB	191	188	6
+episch blau:	RGB	0	143	255
+altes pink:	RGB	255	0	130
+
+Gebannt:	RGB	68	68	68
+FTB:		RGB	108	67	43
+neuschwuchtel:	RGB	225	8	233
+admin:		RGB	255	153	0
+schwuchtel: 	RGB	255	255	255
+edlerspender:	RGB	28	185	146
+altschwuchtel:	RGB	91	185	28
+
+grau			$color1: rgba(22, 22, 24, 1);
+schrift 		$color2: rgba(242, 245, 244, 1);
+ausgegraut		$color3: rgba(136, 136, 136, 1);
+link			$color4: rgba(117, 192, 199, 1);
+error			$color5: rgba(252, 136, 51, 1);
+sfw			$color6: rgba(92, 184, 92, 1);
+nsfw			$color7: rgba(240, 173, 78, 1);
+nsfl			$color8: rgba(217, 83, 79, 1);
+pr0miumgrau		$color9: rgba(34, 34, 34, 1);
+
+orange			$color10: rgba(238, 77, 46, 1);
+gruen			$color11: rgba(29, 185, 146, 1);
+olivgruen		$color12: rgba(191, 188, 6, 1);
+blau			$color13: rgba(0, 143, 255, 1);
+pink			$color14: rgba(255, 0, 130, 1);
+
+gebannt			$color15: rgba(68, 68, 68, 1);
+ftb			$color16: rgba(108, 67, 43, 1);
+neuschwuchtel		$color17: rgba(225, 8, 233, 1);
+admin			$color18: rgba(255, 153, 0, 1);
+schwuchtel		$color19: rgba(255, 255, 255, 1);
+edlerspender		$color20: rgba(28, 185, 146, 1);
+altschwuchtel		$color21: rgba(91, 185, 28, 1);

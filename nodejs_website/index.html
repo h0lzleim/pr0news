@@ -1,0 +1,370 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/pr0materialize.min.css"/>
+	    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".button-collapse").sideNav();
+        $('#floatBtn').hide();
+        $('#floatBtn').css("visibility","visible");
+        $('.collapsible').collapsible();
+			});
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          $("#floatBtn").fadeIn()
+
+        } else {
+          $("#floatBtn").fadeOut()
+        }
+      }
+
+      function toTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function updateAgeInput(val) {
+          document.getElementById('article-age').innerHTML = val;
+      }
+		</script>
+
+    <body class="pr0 grau">
+
+      <!-- NAVIGATION -->
+
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">
+                pr0news
+          </a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <ul class="right hide-on-med-and-down" id="desktop-demo">
+            <li class="active"><a href="news.html">News</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+          </ul>
+
+          <ul class="side-nav" id="mobile-demo">
+            <li class="active"><a href="news.html">News</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- TO TOP BUTTON -->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pr0 blau waves-effect waves-light" onClick="toTop();" id="floatBtn">
+          <i class="large material-icons white-text">arrow_upward</i>
+        </a>
+      </div>
+
+          <div class="row">
+            <div class="col s1 hide-on-med-and-down"></div>
+
+            <!-- MAIN -->
+            <div class="col s12 m4 l3 xl2">
+
+              <!-- SIDEBAR -->
+              <ul class="collapsible" data-collapsible="expandable">
+                <li>
+                  <div class="collapsible-header active"><i class="material-icons">layers</i>Kategorie</div>
+                  <div class="collapsible-body">
+
+                    <p>
+                      <input type="checkbox" class="filled-in" id="technic-box"/>
+                      <label for="technic-box">Technik</label>
+                    </p>
+
+
+                    <p>
+                      <input type="checkbox" class="filled-in" id="politic-box"/>
+                      <label for="politic-box">Politik</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="economy-box"/>
+                      <label for="economy-box">Wirtschaft</label>
+                    </p>
+                    <p>
+                      <input type="checkbox" class="filled-in" id="entertainment-box"/>
+                      <label for="entertainment-box">Unterhaltung</label>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header pr0-collapsible"><i class="material-icons">public</i>Herausgeber</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header pr0-collapsible"><i class="material-icons">access_time</i>Erschienen</div>
+                  <div class="collapsible-body"><p class="white-text">
+                    Neuer als <span class="pr0-text text-blau" id="article-age">72</span>h</p>
+                    <p class="range-field">
+                          <input type="range" id="test5" min="1" max="72" value="72" oninput="updateAgeInput(this.value);" onchange="updateAgeInput(this.value);"/>
+                      </p>
+                </li>
+                <li>
+                  <div class="collapsible-header pr0-collapsible"><i class="material-icons">sort</i>Sortieren</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+              </ul>
+
+            </div>
+
+            <div class="col s12 m8 l7 xl7">
+
+              <!-- ARTICLES -->
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+              <div class="card pr0 pr0miumgrau hoverable">
+                <div class="card-action card-top">
+                  <div class="pr0-text text-grau infobox truncate">
+                      <span>vor 59 Min.</span>
+                      <span>Tagesschau</span>
+  					          <span>Unterhaltung</span>
+                  </div>
+                </div>
+                <div class="card-content white-text">
+                  <span class="card-title pr0-text">Timo Werner? Bei Schalke nur eine schwarze Silhouette</span>
+                    <p>Der nächste Vorfall in der Causa Werner. Nach der Schwalbe in der vergangenen Saison sorgt nun ein schwarzer Schatten für Redebedarf. Dabei sah RB-Trainer Hasenhüttel die Diskussion für beendet an.</p>
+                </div>
+                <div class="card-action">
+                  <a class="pr0-text text-blau" href="#">Artikel lesen</a>
+                  <a class="pr0-text text-blau" href="#">Quelle</a>
+                </div>
+              </div>
+
+
+            </div>
+
+          <!-- MAIN END -->
+          <div class="col xl2 s1 hide-on-med-and-down"></div>
+        </div>
+    </body>
+</html>

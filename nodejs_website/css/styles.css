@@ -1,0 +1,55 @@
+#desktop-demo li.active{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#desktop-demo li:not(.active) a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#mobile-demo li.active{
+  background-color: rgba(238, 77, 46, 1);
+}
+#mobile-demo li.active a{
+  color: #fff;
+}
+#mobile-demo li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#nav-logo {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+  pointer-events:none;
+}
+.collapsible-body{
+  padding: 0.65em 1em;
+}
+
+.collapsible-body p{
+  margin: 0.35em 0em !important;
+}
+
+a.brand-logo {
+  height: inherit;
+}
+
+.card-action div span:not(:last-child):after{
+    content: " |";
+}
+
+.infobox{
+  display: block;
+  text-align: right;
+  box-sizing: inherit;
+  font-size: 0.9em;
+
+}
+.card-top{
+  border-top-width: 0px !important;
+  border-bottom-color: rgba(160, 160, 160, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 8px 24px !important;
+}
+
+#floatBtn{
+  visibility: hidden;
+}
