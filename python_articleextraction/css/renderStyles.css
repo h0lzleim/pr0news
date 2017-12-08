@@ -5,14 +5,15 @@ a {
 body{
 	background: #161618;
 	font-family: "Slabo 27px", "Times New Roman", serif;
-	font-size: 1.8em;
-	line-height: 1.5;
+	font-size: 1.6em;
+	line-height: 1.3;
+	letter-spacing: -0.25px;
 }
 
 div.pr0news{
 	margin: auto;
 	width: 1000px;
-	display: blocck;
+	display: block;
 	text-align: left;
 }
 
@@ -20,7 +21,11 @@ div.pr0news div{
 	color: #f2f5f4;
 	font-family: "Slabo 27px", "Times New Roman", serif;
 }
-
+div.pr0news>img:first-of-type{
+	margin: auto !important;
+	width: 98%;
+	display: block;
+}
 p{
 	color: #f2f5f4;
 	font-family: "Slabo 27px", "Times New Roman", serif;
@@ -90,13 +95,15 @@ ol{
 	font-family: "Slabo 27px", "Times New Roman", serif;
 }
 div div img{
-	width: 50%;
+	width: 65%;
 	max-width: 1000px;
 	display: block;
 	margin-left: auto !important;
 	margin-right: auto !important;
+	height: auto !important;
+	max-height: 1000px;
 }
-div>*{
+div.pr0news>*{
 	margin-left: 10px !important;
 	margin-right: 10px !important;
 }
@@ -161,5 +168,67 @@ div>*{
 	display: none;
 }
 .Tagesschau p.embedtrigger.button{
+	display: none;
+}
+.Tagesschau a[href='#'], p.boxhead, p.teasertext{
+	display: none;
+}
+.Tagesschau a[title='Bilderstrecke im Vollbild'], h2.headline, p.info, p.infotext, p.more.hidden{
+	display: none;
+}
+.FAZ h2>*{
+	display: inline-block;
+	margin: 0;
+}
+.FAZ h3>*{
+	display: inline-block;
+	margin: 0;
+}
+.FAZ p.vjs-no-js{
+	display: none;
+}
+.FAZ p.CtrlText{
+	display: none;
+}
+.FAZ h2.mm-MainVideo_Headline{
+	display: none;
+}
+.FAZ p.ctn-PlaceholderContent_DescriptionCopyright{
+	display: none;
+}
+.FAZ img.cbx-Author_Avatar{
+	display: none;
+}
+.FAZ p.cbx-Author_Name, p.cbx-Author_Position, ul.cbx-Author_ProfileList{
+	display: none;
+}
+.Focus p.source, p.created{
+	display: none;
+}
+.Focus div>img:first-of-type{
+	display: none;
+}
+.Postillon div>p:nth-last-of-type(-n+2){
+	display: none;
+}
+.RP.Online p.source{
+	display: none;
+}
+.Spiegel p.asset-credit, p.btn-video-text-large{
+	display: none;
+}
+.Spiegel a.image-buttons-panel{
+	display: block;
+}
+.Spiegel p.multi-box-content.multi-box-content-no-headline{
+	padding-left: 50px;
+}
+.Stern a{
+	display: inline;
+}
+.Stern p.a-text-block{
+	display: none;
+}
+.WEBde br{
 	display: none;
 }
